@@ -1,6 +1,16 @@
 dependencies {
 	compileInclude group: "com.liferay", name: "org.freemarker", version: "2.3.32.LIFERAY-PATCHED-2"
 
+	compileInclude group: 'io.github.resilience4j', name: 'resilience4j-circuitbreaker', version: '2.2.0'
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-core", version: "1.7.1"
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-timelimiter", version: "1.5.0"
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-retry", version: "1.7.1"
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-circuitbreaker", version: "1.7.1"
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-all", version: "1.5.0"
+//	compileInclude group: "io.github.resilience4j", name: "resilience4j-feign", version: "1.5.0"
+
+
+
 	compileOnly group: "com.liferay", name: "biz.aQute.bnd.annotation", version: "4.2.0.LIFERAY-PATCHED-2"
 	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.impl", version: "default"
 	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "default"

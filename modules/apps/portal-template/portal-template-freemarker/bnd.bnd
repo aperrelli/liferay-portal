@@ -3,6 +3,9 @@ Bundle-SymbolicName: com.liferay.portal.template.freemarker
 Bundle-Version: 7.0.55
 Import-Package:\
 	!com.sun.javadoc,\
+	!io.vavr.*,\
+	!org.slf4j.*, \
+	!javax.annotation.*, \
 	!com.sun.org.apache.xml.internal.utils,\
 	!com.sun.org.apache.xpath.internal,\
 	!com.sun.org.apache.xpath.internal.objects,\

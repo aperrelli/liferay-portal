@@ -285,6 +285,8 @@ public class FreeMarkerManager extends BaseTemplateManager {
 		TemplateResource templateResource, boolean restricted,
 		Map<String, Object> helperUtilities) {
 
+		System.out.println("doGetTemplate");
+
 		BeansWrapper beansWrapper = _defaultBeansWrapper;
 
 		if (restricted) {
